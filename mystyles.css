@@ -1,0 +1,221 @@
+body {
+  text-align: center;
+  background-image: url("images/dholakpur.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  
+}
+.kalia {
+
+	position: absolute;
+	/*right: 40px;
+	bottom: 10px;*/
+	visibility: none;
+	border-radius: 0;
+	height: 100%;
+	width: 100%;
+	left: 0;
+	top: 0;
+	right:0;
+	bottom: 0;
+	
+}
+.row {
+	height: 40%;
+}
+.top {
+	height: 20%;
+}
+.hide {
+	height: 300px;
+	width: 300px;
+	position: absolute;
+	right: 40px;
+	bottom: 10px;
+	visibility: hidden;
+}
+
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  margin:  1% 5%;
+  color: #eeeeee;
+}
+h2 {
+	font-family: 'Ranchers', cursive;
+    font-size: 2rem;
+    margin:  2% 5%;
+    color: #b52b65;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+img {
+  height: 200px;
+  width: 200px;
+  border-radius:20%;
+	
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  
+  border-radius: 20%;
+}
+
+.game-over {
+  background-image: url("images/red.jpg");
+  opacity: 0.8;
+  /*background-image: url("images/kalia.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  z-index: 5;*/
+  
+ 
+}
+
+.red {
+background-color: #9ad3bc;
+border: 10px solid #4e8d7c;
+  
+}
+
+.green {
+  background-color: #f5b461;
+  border: 10px solid orange;
+
+}
+
+.blue {
+  background-color: #bedcfa;
+    border: 10px solid #00b7c2;
+}
+
+.yellow {
+  	background-color: #fca3cc;
+	border: 10px solid #d35d6e;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+
+
+@media (max-width: 1000px) {
+	body {
+  background-image: url("images/dholakpur.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  
+}
+.kalia {
+
+	position: absolute;
+	/*right: 40px;
+	bottom: 10px;*/
+	visibility: none;
+	border-radius: 0;
+	height: 100%;
+	width: 100%;
+	left: 0;
+	top: 0;
+	right:0;
+	bottom: 0;
+	
+}
+.hide {
+	height: 300px;
+	width: 300px;
+	position: absolute;
+	right: 40px;
+	bottom: 10px;
+	visibility: hidden;
+}
+
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1.5rem;
+  margin:  1% 1%;
+  color: #eeeeee;
+}
+h2 {
+	font-family: 'Ranchers', cursive;
+    font-size: 1.5rem;
+    margin:  2% 2%;
+    color: #b52b65;
+}
+
+.container {
+  display: block;
+  width: 100%;
+  margin: auto;
+
+}
+img {
+  height: 150px;
+  width: 150px;
+  border-radius:20%;
+	
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 150px;
+  width: 150px;
+  
+  border-radius: 20%;
+}
+
+.game-over {
+  background-image: url("images/red.jpg");
+  opacity: 0.8;
+  /*background-image: url("images/kalia.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  z-index: 5;*/
+  
+ 
+}
+
+.red {
+background-color: #9ad3bc;
+border: 10px solid #4e8d7c;
+  
+}
+
+.green {
+  background-color: #f5b461;
+  border: 10px solid orange;
+
+}
+
+.blue {
+  background-color: #bedcfa;
+    border: 10px solid #00b7c2;
+}
+
+.yellow {
+  	background-color: #fca3cc;
+	border: 10px solid #d35d6e;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+    
+
+}
