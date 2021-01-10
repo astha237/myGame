@@ -42,8 +42,7 @@ function animatePress(currentColour) {
   }, 100);
 }
 var level =0;
-
-$(document).keypress(function () {
+function startGame(){
 	if(status==="not")
 	{
 		status="on";
@@ -51,9 +50,10 @@ $(document).keypress(function () {
 		nextSequence();
 		
 	}
-	
-	
-});
+}
+
+$(document).keypress(startGame);
+$("button").click(startGame);
 function checkAnswer(currentLevel) {
 	if(userClickedPattern[currentLevel]===gamePattern[currentLevel])
 	{
@@ -74,6 +74,7 @@ function checkAnswer(currentLevel) {
 		 $(".kalia").addClass("hide");
         }, 600);
 		$("h1").text("GAME OVER!!! Press any key to restart.");
+		$("button").text("RESTART");
 		status="not";
 	    gamePattern = [];
         userClickedPattern = [];
